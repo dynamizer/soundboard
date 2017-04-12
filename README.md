@@ -1,6 +1,5 @@
 # soundboard
 
-Soundboard
 - JS
 - Format audio MP3 & OGG
 
