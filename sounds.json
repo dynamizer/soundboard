@@ -1,0 +1,129 @@
+{
+	"sounds":[
+		{
+			"fichier": "alorscacestpassecomment",
+			"nom": "alors ça c'est passé comment",
+			"categorie" : "aladdin"
+		},
+		{
+			"fichier": "allemand",
+			"nom": "allemand",
+			"categorie": "oss117"
+		},
+		{
+			"fichier": "bazooka",
+			"nom": "bazooka",
+			"categorie": "jim carrey"
+		},
+		{
+			"fichier": "celuiquiditquilafait",
+			"nom": "celui qui dit qui l'a fait",
+			"categorie": "autres"
+		},
+		{
+			"fichier": "deveine",
+			"nom": "deveine",
+			"categorie": "jim carrey"
+		},
+		{
+			"fichier": "dictature",
+			"nom": "dictature",
+			"categorie": "oss117"
+		},
+		{
+			"fichier": "douloureux",
+			"nom": "douloureux",
+			"categorie": "jim carrey"
+		},
+		{
+			"fichier": "entrainer",
+			"nom": "entrainer",
+			"categorie": "jim carrey"
+		},
+		{
+			"fichier": "immediatement",
+			"nom": "immediatement",
+			"categorie": "jim carrey"
+		},
+		{
+			"fichier": "intelligence",
+			"nom": "intelligence",
+			"categorie": "jim carrey"
+		},
+		{
+			"fichier": "jepeuxplusrespirer",
+			"nom": "je peux plus respirer",
+			"categorie" : "aladdin"
+		},
+		{
+			"fichier": "jesuiscoince",
+			"nom": "je suis coincé",
+			"categorie" : "aladdin"
+		},
+		{
+			"fichier": "lachenille",
+			"nom": "la chenille",
+			"categorie": "jim carrey"
+		},
+		{
+			"fichier": "larage",
+			"nom": "la rage",
+			"categorie": "jim carrey"
+		},
+		{
+			"fichier": "legras",
+			"nom": "le gras",
+			"categorie": "kaamelot"
+		},
+		{
+			"fichier": "lourd",
+			"nom": "lourd",
+			"categorie": "oss117"
+		},
+		{
+			"fichier": "merde",
+			"nom": "c'est de la merde",
+			"categorie": "kaamelot"
+		},
+		{
+			"fichier": "mitemps",
+			"nom": "mi-temps",
+			"categorie": "jim carrey"
+		},
+		{
+			"fichier": "monpere",
+			"nom": "mon pere",
+			"categorie": "oss117"
+		},
+		{
+			"fichier": "passe",
+			"nom": "passe",
+			"categorie": "jim carrey"
+		},
+		{
+			"fichier": "pompelair",
+			"nom": "pompe l'air",
+			"categorie": "jim carrey"
+		},
+		{
+			"fichier": "quichedanssatete",
+			"nom": "quiche dans sa tete",
+			"categorie": "kaamelot"
+		},
+		{
+			"fichier": "record",
+			"nom": "record",
+			"categorie": "jim carrey"
+		},
+		{
+			"fichier": "silence",
+			"nom": "silence",
+			"categorie": "jim carrey"
+		},
+		{
+			"fichier": "voila",
+			"nom": "voila",
+			"categorie": "oss117"
+		}
+	]
+}

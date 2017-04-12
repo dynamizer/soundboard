@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="robots" content="noindex, nofollow">
+		<meta charset="UTF-8">
+		<title>Soundboard</title>
+		<link rel="stylesheet" href="css/app.css">
+	</head>
+	<body>
+		<div class="jumbotron">
+			<div class="container">
+				<h1>Soundboard</h1>
+			</div>
+		</div>
+		<div id="sonPere" class="container"></div>
+		<div id="controller" class="hidden-xs hidden-sm">
+			<input id="volumeslider" type="range" min="0" max="1" value="1" step=".01">
+		</div>
+	</body>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/playsong.min.js"></script>
+	<script>
+		$.getJSON("sounds.json", function(data){
+			for (var i = 0; i < data.sounds.length; i++) {
+				var html ='<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">';
+				html +='<audio preload="auto" id="'+data.sounds[i].fichier+'">';
+				html +='<source src="sounds/mp3/'+data.sounds[i].fichier+'.mp3" />';
+				html +='<source src="sounds/ogg/'+data.sounds[i].fichier+'.ogg" />';
+				html+='</audio>';
+				html +='<button id="btn'+[i]+'" onclick="play('+data.sounds[i].fichier+',this.id);" class="btn btn-son btn-block"><i class="fa fa-play"></i>'+data.sounds[i].nom+'</button>';
+				html+='</div>';
+				$(html).appendTo("#sonPere");
+			}
+		});
+	</script>
+</html>
