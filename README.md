@@ -1,7 +1,9 @@
 # soundboard
 
-Soundboard en JSON | MP3 &amp; OGG
+Soundboard
+- JS
+- Format audio MP3 & OGG
 
-## Test
+## Lien
 
 http://oucaenest.fr/soundboard/
